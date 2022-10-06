@@ -14,19 +14,26 @@ public class Romain {
 	}
 	
 	public void parler(String texte) {
-		System.out.println(prendreParole() + "«" + texte + "»");
+		System.out.println(prendreParole() + "Â«" + texte + "Â»");
 	}
 	
 	private String prendreParole() {
 		return "Le romain " + nom + " : ";
 	}
 	
-	public void recevnoirCoup(int forceCoup) {
+	public void recevoirCoup(int forceCoup) {
 		force -= forceCoup;
 		if (force>0) {
-			parler("Aïe");
+			parler("AÃ¯e");
 		} else {
-			parler("J'abandonne...")
+			parler("J'abandonne...");
 		}
+	}
+	
+	public static void main(String[] args) {
+		Romain minus = new Romain("Minus", 6);
+		minus.prendreParole();
+		minus.parler("Help");
+		minus.recevoirCoup(5);
 	}
 }

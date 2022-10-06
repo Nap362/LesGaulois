@@ -1,7 +1,5 @@
 package personnages;
 
-import com.sun.tools.classfile.Opcode.Set;
-
 public class Village {
 	private String nom;
 	private Chef chef;
