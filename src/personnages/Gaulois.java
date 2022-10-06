@@ -26,6 +26,9 @@ public class Gaulois {
 		System.out.println(nom + " envoie un grand coup dans la mâchoire de "+ romain.getNom());
 		romain.recevoirCoup(force / 3);
 	}
+	public void boirePotion(int forcePotion) {
+		
+	}
 	
 	@Override
 	public String toString() {
