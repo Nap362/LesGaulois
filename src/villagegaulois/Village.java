@@ -1,6 +1,4 @@
-package personnages;
-
-import java.util.Iterator;
+package villagegaulois;
 
 import personnages.Gaulois;
 import personnages.Chef;
